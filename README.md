@@ -91,11 +91,11 @@ python -m tools.compare
 python -m tools.bundle
 ```
 
-## How to run the app
-ython -m venv .venv
-# Windows:
+# How to run the app
+python -m venv .vent
+## Windows:
 .venv\Scripts\activate
-# macOS/Linux:
+## macOS/Linux:
 source .venv/bin/activate
 
 pip install -r requirements.txt
