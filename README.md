@@ -91,6 +91,19 @@ python -m tools.compare
 python -m tools.bundle
 ```
 
+## How to run the app
+ython -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+
+pip install -r requirements.txt
+Then press Ctrl+Shift+P, choose Python: Select Interpreter, and pick the .venv one.
+Run the app:
+make sure you are on reef_watch folder
+> streamlit run app.py
+
 ## Git safety
 
 Never commit credentials, `.netrc`, `.env`, private SSH keys, raw NASA downloads, caches, generated station logs or generated reports. Commit only small, documented data files that the team is allowed to redistribute.
