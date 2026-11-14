@@ -92,15 +92,16 @@ python -m tools.bundle
 ```
 
 # How to run the app
-python -m venv .vent
+python -m venv .venv
 ## Windows:
 .venv\Scripts\activate
 ## macOS/Linux:
 source .venv/bin/activate
 
 pip install -r requirements.txt
+
 Then press Ctrl+Shift+P, choose Python: Select Interpreter, and pick the .venv one.
-Run the app:
+# Run the app:
 make sure you are on reef_watch folder
 > streamlit run app.py
 
