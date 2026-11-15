@@ -1,3 +1,4 @@
+.,
 # Reefline
 
 Reefline combines a satellite-derived reef trend application with a future Raspberry Pi reef station. The current laptop application runs on per-site CSV time series; the Pi implementation is preserved but hardware integration is intentionally deferred.
